@@ -1,0 +1,36 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Rubik', sans-serif;
+    
+}
+
+.container {
+    height: 100vh;
+}
+
+.title {
+    font-size: 5vh;
+    width: 950px;
+    position: absolute;
+    margin-left: 4vw;
+    top: 15vh;
+}
+
+.card_container {
+    display: flex;
+    justify-content: flex-end;
+    align-items: flex-end;
+    height: 100vh;
+}
+
+.hand {
+    display: flex;
+    align-items: end;
+    height: 800px;
+    margin-bottom: 0;
+}
