@@ -1,0 +1,21 @@
+.btn__container {
+    display: flex;
+    width: 600px;
+    margin-top: 5vh;
+}
+
+
+.btn__principal {
+    height: 10vh;
+    width: 5vw;
+    border-radius: 10px;
+    background-color: #FEC519;
+    border-style: none;
+    margin: 20px 10px 0 10px;
+}
+
+.btn__principal:hover {
+    cursor: pointer;
+    border: solid 2px ;
+    border-color: #19fe3f;
+}
